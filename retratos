@@ -1,0 +1,71 @@
+<html>
+<head>
+   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="css/estilos.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width= device-width, user-scalable= no, initial-scale 1.0">
+   <title>ProyectoCssSelvin</title>
+</head>
+<body>
+	<header>
+		<h1>Comenzando con los retratos</h1>
+	    <section class="enlaces">
+            <ul>
+                <a href="file:///C:/Users/HP/Documents/Next%20U/CSS3/proyecto/index.html"> Inicio</a></li>&nbsp;&nbsp;&nbsp;
+                <a class="sub" href="file:///C:/Users/HP/Documents/Next%20U/CSS3/proyecto/retratos.html">Retratos</a></li>&nbsp;&nbsp;&nbsp;
+                <a href="file:///C:/Users/HP/Documents/Next%20U/CSS3/proyecto/paisajes.html">Paisajes</a></li>&nbsp;&nbsp;&nbsp;
+            </ul>
+        </section>
+    </header>
+	<section id="contenidoretra">
+		<div class="contenedorRetrato" role= "main">
+			<div class="contret1">
+				<div id="pic1">
+			        <img src="img/retrato1.jpg">
+	            </div>
+		        <div id="pic2">
+			        <img src="img/retrato2.jpg">
+	            </div>
+	            <div id="pic3">
+			         <img src="img/retrato3.jpg">
+	            </div>
+			</div>
+		    <div class="contret2">
+		    	<div id="pic4">
+			        <img src="img/retrato4.jpg">
+	            </div>
+	            <div id="pic5">
+			        <img src="img/retrato5.jpg">
+	            </div>
+	            <div id="pic6">
+			        <img src="img/retrato6.jpg">
+	            </div>
+		    </div>
+	       
+	    </div>
+	</section>
+	<footer>
+		<div class="cont3" role="main">
+		    <div class="c1">
+		    	<p>Redes sociales</p>
+		 	    <a href="https://www.facebook.com/estuardo.barrios.92372" class="icon-facebook" target="_blank"></a>
+		 	    <a href="https://twitter.com/Selvin294" class="icon-twitter" target="_blank"></a>
+		 	    <a href="https://www.behance.net/selvinVasquez294" class="icon-behance" target="_blank"></a>
+		    </div>
+		    <div class="c2">
+		    	<p>Contacto</p>
+                <a href="mailto:selvindk294@gmail.com" class="icon-mail" target="_blank"></a>
+                
+            </div>
+            <div class="c3">
+                <p>
+                	No nos hacemos responsables por el contenido publicado, unicamente con fines ilustrativos e informativos; el NWO avanza con rápidez.
+                </p>
+            </div> 
+            <div class="c4">  
+                <p>Derechos reservados<br />Guatemala 2019</p>
+            </div>
+        </div>
+	</footer>
+</body>
+ </html>
