@@ -127,11 +127,15 @@ footer {
 	flex-flow: row;
 }
 
+.cont3 h3{
+	text-align: center;
+}
+
 .c1{
-	margin: 0.5vh;
-	padding: 0.5vh;
-	width: 25vw;
-	 text-align: center;
+	margin: 2vh;
+	padding: 2vh;
+	width: 20vw;
+	text-align: center;
     justify-content: center;
     flex-flow: column;
 }
@@ -143,17 +147,17 @@ footer {
 }
 
 .c2{
-    margin: 0.5vh;
-	padding: 0.5vh;
-	width: 25vw;
+    margin: 2vh;
+	padding: 2vh;
+	width: 20vw;
 	text-align: center;
     justify-content: center;
 }
 
 .c3{  
-    margin: 0.5vh;
-	padding: 0.5vh;
-	width: 15vw;
+    margin: 2vh;
+	padding: 2vh;
+	width: 20vw;
 	text-align: justify;
     justify-content: center;
 }
@@ -164,38 +168,41 @@ footer {
 }
 
 .c4{
-    margin: 0.5vh;
-	padding: 0.5vh;
-	width: 30vw;
+    margin: 2vh;
+	padding: 2vh;
+	width: 20vw;
 	text-align: center;
     justify-content: center;
 }
 
 .c4 image{
- width: 2vw;
+	vertical-align:text-bottom;
+	width: 2rem;
+	justify-content: center;
+    text-align: center;
 }
 
 .icon-facebook{
 	color: #7d5fff;
-	size: 5rem;
+	size: 8rem;
 	text-decoration: none;
 }
 
 .icon-twiter{
 	color: #7d5fff;
-	size: 5rem;
+	size: 8rem;
 	text-decoration:none;
 }
 
 .icon-behance{
 	color: #7d5fff;
-	size: 5rem;
+	size: 8rem;
 	text-decoration: none;
 }
 
 .icon-mail{
 	color:#7d5fff;
-	size: 5rem;
+	size: 8rem;
 	text-decoration: none;
 }
 
