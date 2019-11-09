@@ -1,8 +1,12 @@
 body{
-	align-content: center;
 	background-color: #02010a;
-	margin:1vh;
-	width: 100%
+	margin-left:0.1vh;
+	margin-right:0.1vh;
+}
+
+.contenido{
+	max-width: 900px;
+	align-content: center;
 }
 
 header { 
@@ -13,7 +17,7 @@ header {
 
 header h1 {
 	font-size: 5vh;
-	padding: 0.7vh;
+	padding: 1vw;
 	text-shadow: 0.5vh 0.5vh 0.5vh #02010a;
 	text-align: left;
 }
@@ -21,7 +25,7 @@ header h1 {
 .enlaces{
 	font-size: 3vh;
 	text-align: right;
-	padding: 0.4vh;
+	padding: 0.2vh;
 }
 
 .enlaces a{
@@ -38,9 +42,7 @@ header h1 {
 
 .cont1{
 	background-color: #82c3a6;
-	text-align: center;
-	justify-content: center;
-	align-content: center;
+	text-align: center;	
 }
 
 .cont1 img{
@@ -59,7 +61,6 @@ header h1 {
     width: 100%;
 	display: flex;
     flex-flow: row;
-	text-align: center;
 	justify-content: center;
 }
 
@@ -173,7 +174,6 @@ footer {
 
 .c3 p{
     text-align: center;
-    justify-content: center;
 }
 
 .c4{
@@ -199,6 +199,7 @@ footer {
 	size: 8rem;
 	text-decoration: none;
 }
+
 .icon-behance{
 	color: #7d5fff;
 	size: 8rem;
