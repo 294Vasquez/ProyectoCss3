@@ -1,3 +1,5 @@
+/*INDEX-INICIO
+------------------------------------------------------------------------------*/
 body{
 	background-color: #02010a;
 	margin-left:0.1vh;
@@ -5,11 +7,13 @@ body{
 	font-family: Dancing Script;
 }
 
-.contenido{
-	max-width: 900px;
-	align-content: center;
+#contenido{
+	width: 100%;
+	margin: 0 auto;
 }
 
+/*ENCABEZADO-INICIO
+-----------------------------*/
 header { 
 	color: white;
 	background-color: #5b7989;
@@ -34,13 +38,18 @@ header h1 {
 }
 
 .enlaces a:hover{
-    color:#00d8d6;
+	color:#00d8d6;
 }
 
 .sub{
 	text-decoration: inherit;
 }
 
+/*ENCABEZADO-FINAL
+-----------------------------*/
+
+/*CONTENEDOR PRINCIPAL-INICIO
+-----------------------------*/
 .cont1{
 	background-color: #82c3a6;
 	text-align: center;	
@@ -49,26 +58,32 @@ header h1 {
 .cont1 img{
 	width: 80vw;
 	height: 35vw;
-    box-shadow: 0.4vh 0.4vh 0.4vh #02010a;
+	box-shadow: 0.4vh 0.4vh 0.4vh #02010a;
 }
 
 #imagenes img{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 }
 
+/*CONTENEDOR PRINCIPAL-FINAL
+-----------------------------*/
+
+
+/*CONTENEDOR SECUNDARIO-INICIO
+-----------------------------*/
 .cont2{
 	background-color:#d5c75f;
-    width: 100%;
+	width: 100%;
 	display: flex;
-    flex-flow: row;
+	flex-flow: row;
 	justify-content: center;
 }
 
 .cont2 img{
 	border: 2px solid #82c3a6;
 	box-shadow: 0.5vh 0.5vh 0.5vh #02010a;
-    justify-content: center;
+	justify-content: center;
 }
 
 #imagenes2 img{
@@ -76,17 +91,17 @@ header h1 {
 	width: 35vw;
 	height: 40vh;
 	margin-top: 3vw;
-    margin-bottom: 3vw;
-    margin-right: 6vw;
+	margin-bottom: 3vw;
+	margin-right: 6vw;
 	transition-duration: 1s;
 }
 
 #imagenes2 a {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: black;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: black;
 }
 
 #imagenes2 img:hover{
@@ -98,23 +113,29 @@ header h1 {
 	width: 35vw;
 	height: 40vh;
 	margin-top: 3vw;
-    margin-bottom: 3vw;
-    margin-left: 6vw;
+	margin-bottom: 3vw;
+	margin-left: 6vw;
 	transition-duration:1s;	
 }
 
 #imagenes3 a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: black;
 }
 
 #imagenes3 img:hover{
 	transform: translate(25px, 5px);
 }
 
+
+/*CONTENEDOR SECUNDARIO-FINAL
+-----------------------------*/
+
+/*PIE DE PAGINA-INICIO
+-------------------------------*/
 footer {
 	text-align: center;
 	justify-content: center;
@@ -125,8 +146,8 @@ footer {
 	border-radius: 0 0 1.5vh 1.5vh;
 	background-color: #C6d5c5;
 	margin: 0vh;
-    padding: 0;
-    width: 100%;
+	padding: 0;
+	width: 100%;
 	display: flex;
 	flex-flow: row;
 }
@@ -139,26 +160,26 @@ footer {
 .c1{
 	margin: auto;
 	padding: auto;
-	width: 20vw;
+	width: 15vw;
 	text-align: center;
-    justify-content: center;
-    flex-flow: column;
-    font-size: 2rem;
+	justify-content: center;
+	flex-flow: column;
+	font-size: 2rem;
 }
 
 .c1 a{
 	margin: 1vw;
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 .c2{
-    margin: auto;
+	margin: auto;
 	padding: auto;
 	width: 20vw;
 	text-align: center;
-    justify-content: center;
-    font-size: 1.2rem;
+	justify-content: center;
+	font-size: 1.2rem;
 }
 
 .c2 a{
@@ -166,27 +187,27 @@ footer {
 }
 
 .c3{  
-    margin: auto;
+	margin: auto;
 	padding: auto;
 	width: 20vw;
 	text-align: justify;
-    justify-content: center;
+	justify-content: center;
 }
 
 .c3 p{
-    text-align: center;
+	text-align: center;
 }
 
 .c4{
-    margin: auto;
+	margin: auto;
 	padding: auto;
 	width: 20vw;
 }
 
 .c4 img{
 	display:block
-    margin:0 auto;
-    width: 1.7rem;
+	margin:0 auto;
+	width: 1.7rem;
 }
 
 .icon-facebook{
@@ -213,14 +234,20 @@ footer {
 	text-decoration: none;
 }
 
+/*PIE DE PAGINA-FINAL
+-------------------------------*/
+/*INDEX-FINAL
+------------------------------------------------------------------------------*/
+
+
 .contenedorRetrato img{
 	width: 33vw;
 	height:45vh;
 }
 
-#contenidoretra{
-display: block;
-flex-flow: column;
+.contenedorRetrato{
+	display: inline-flex;
+	flex-flow: column;
 }
 
 .contret1{
@@ -234,7 +261,7 @@ flex-flow: column;
 }
 
 #pic1 img {
-    -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
 	filter: blur(10px);
 }
 
@@ -244,7 +271,7 @@ flex-flow: column;
 } 
 
 #pic3{
-    -webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
 	filter: sepia(90%);
 }
 
@@ -258,4 +285,28 @@ flex-flow: column;
 	filter: grayscale(100%);
 } 
 
+@media screen and (min-width: 400px) and (max-width: 900px){
 
+	header
+	{
+		width:100%;
+	}
+	#contenido
+	{
+		width: 100%;
+		margin: auto;
+		display: column;
+		flex-flow: column;
+	}
+	.cont1, .cont2, .cont3
+	{
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+	}
+	
+	.cont1{
+		order: 1;
+
+	}
+}
