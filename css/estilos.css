@@ -135,8 +135,8 @@ footer {
 }
 
 .c1{
-	margin: 2vh;
-	padding: 2vh;
+	margin: auto;
+	padding: auto;
 	width: 20vw;
 	text-align: center;
     justify-content: center;
@@ -151,8 +151,8 @@ footer {
 }
 
 .c2{
-    margin: 2vh;
-	padding: 2vh;
+    margin: auto;
+	padding: auto;
 	width: 20vw;
 	text-align: center;
     justify-content: center;
@@ -164,8 +164,8 @@ footer {
 }
 
 .c3{  
-    margin: 2vh;
-	padding: 2vh;
+    margin: auto;
+	padding: auto;
 	width: 20vw;
 	text-align: justify;
     justify-content: center;
@@ -177,8 +177,8 @@ footer {
 }
 
 .c4{
-    margin: 2vh;
-	padding: 2vh;
+    margin: auto;
+	padding: auto;
 	width: 20vw;
 }
 
@@ -194,12 +194,11 @@ footer {
 	text-decoration: none;
 }
 
-.icon-twiter{
+.icon-twitter{
 	color: #7d5fff;
 	size: 8rem;
-	text-decoration:none;
+	text-decoration: none;
 }
-
 .icon-behance{
 	color: #7d5fff;
 	size: 8rem;
