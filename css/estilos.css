@@ -84,6 +84,7 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: black;
 }
 
 #imagenes2 img:hover{
@@ -105,6 +106,7 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: black;
 }
 
 #imagenes3 img:hover{
@@ -112,9 +114,9 @@ header h1 {
 }
 
 footer {
-	font-size: 2vh;
 	text-align: center;
-	justify-content: center;	
+	justify-content: center;
+	align-content: center;	
 }
 
 .cont3 {
@@ -129,6 +131,7 @@ footer {
 
 .cont3 h3{
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 .c1{
@@ -138,6 +141,7 @@ footer {
 	text-align: center;
     justify-content: center;
     flex-flow: column;
+    font-size: 2rem;
 }
 
 .c1 a{
@@ -152,6 +156,11 @@ footer {
 	width: 20vw;
 	text-align: center;
     justify-content: center;
+    font-size: 1.2rem;
+}
+
+.c2 a{
+	font-size: 2rem;
 }
 
 .c3{  
@@ -171,15 +180,12 @@ footer {
     margin: 2vh;
 	padding: 2vh;
 	width: 20vw;
-	text-align: center;
-    justify-content: center;
 }
 
-.c4 image{
-	vertical-align:text-bottom;
-	width: 2rem;
-	justify-content: center;
-    text-align: center;
+.c4 img{
+	display:block
+    margin:0 auto;
+    width: 1.7rem;
 }
 
 .icon-facebook{
