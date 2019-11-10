@@ -285,28 +285,33 @@ footer {
 	filter: grayscale(100%);
 } 
 
-@media screen and (min-width: 400px) and (max-width: 900px){
+@media (min-width: 400px) and (max-width: 800px)  {
 
-	header
-	{
-		width:100%;
-	}
-	#contenido
-	{
+	img {
 		width: 100%;
-		margin: auto;
-		display: column;
+	}
+
+	#principal{
+		display: block;
 		flex-flow: column;
 	}
-	.cont1, .cont2, .cont3
-	{
-		width: 100%;
-		display: flex;
-		flex-flow: column;
+	.cont1 img{
+        margin-left:auto; 
+        margin-right:auto; 
 	}
-	
-	.cont1{
-		order: 1;
+	.cont2 {
+        display: flex;
+        flex-flow: column; 
+	}
+	.cont2 img{
+        display: flex;
+        flex-flow: column;
+        margin: auto; 
+	}
+	.cont3{
+		 display: flex;
+        flex-flow: column;
+        margin: auto;
 
 	}
 }
