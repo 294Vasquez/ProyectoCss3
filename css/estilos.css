@@ -2,8 +2,8 @@
 ------------------------------------------------------------------------------*/
 body{
 	background-color: #02010a;
-	margin-left:0.1vh;
-	margin-right:0.1vh;
+	margin-left:auto;
+	
 	font-family: Dancing Script;
 }
 
@@ -15,20 +15,21 @@ body{
 /*ENCABEZADO-INICIO
 -----------------------------*/
 header { 
+	margin-top: 0.1vh;
 	color: white;
 	background-color: #5b7989;
 	border-radius: 1.5vh 1.5vh 0vh 0vh;
 }
 
 header h1 {
-	font-size: 5vh;
+	font-size: 8vh;
 	padding: 1vw;
 	text-shadow: 0.5vh 0.5vh 0.5vh #02010a;
 	text-align: left;
 }
 
 .enlaces{
-	font-size: 3vh;
+	font-size: 4vh;
 	text-align: right;
 	padding: 0.2vh;
 }
@@ -56,12 +57,12 @@ header h1 {
 }
 
 .cont1 img{
-	width: 80vw;
-	height: 35vw;
 	box-shadow: 0.4vh 0.4vh 0.4vh #02010a;
 }
 
 #imagenes img{
+	width: 65vw;
+	height: 30vw;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 }
@@ -285,33 +286,119 @@ footer {
 	filter: grayscale(100%);
 } 
 
-@media (min-width: 400px) and (max-width: 800px)  {
+/*MEDIA QUERIES
+---------------------------*/
 
-	img {
+@media all and (min-width: 200px) and (max-width: 900px)  {
+
+	header h1{
+		text-align: center;
+		font-size: 6vh;
+	}
+
+	.enlaces{
+		font-size: 3vh;
+		text-align: center;
+	}
+
+	.cont1{
+		order: 1;
 		width: 100%;
 	}
 
-	#principal{
-		display: block;
+	.cont1 img{
+		margin-left:auto; 
+		margin-right:auto; 
+	}
+
+	#imagenes img{
+		width: 85%;
+		height: 40%;
+		margin-bottom:0.8vh;
+		margin-top:0.8vh;
+	}
+
+	.cont2 {
+		order: 2; 
+		width: 100%;
+		text-align: center;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: column;
 		flex-flow: column;
 	}
-	.cont1 img{
-        margin-left:auto; 
-        margin-right:auto; 
-	}
-	.cont2 {
-        display: flex;
-        flex-flow: column; 
-	}
+
 	.cont2 img{
-        display: flex;
-        flex-flow: column;
-        margin: auto; 
+		margin:auto; 
+		align-content: center;
+		justify-content: center;
 	}
-	.cont3{
-		 display: flex;
-        flex-flow: column;
-        margin: auto;
+
+	#imagenes2 img{
+		float: none;
+		width: 85%;
+		height: 40%;
+		margin-top: 0.8vh;
+		margin-bottom: 0.8vh;
+		
+	}
+
+	#imagenes3 img{
+		float: none;
+		width: 85%;
+		height: 40%;
+		margin-top: 0.8vh;
+		margin-bottom: 0.8vh;
 
 	}
+
+	.cont3{
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+		margin: auto;
+		order: 3;
+	}
+
+	.c1, .c2, .c3, .c4{
+		text-align: left;
+		justify-content: left;
+	}
+
 }
+
+/*MEDIA QUERIES
+---------------------------*/
+
+/*KEYFRAME SLIDEN
+---------------------------*/
+
+@keyframes sliden {
+
+	0% {
+		position: relative;
+		margin-top: 150%;
+	}
+
+	60% {
+		position: relative;
+		margin-top: -5%;
+	}
+
+	100% {
+		position: relative;
+		margin-top: 0%;
+	}
+}
+
+header{
+	animation-name: sliden;
+	animation-duration: 1.8s;
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+/*KEYFRAME SLIDEN
+---------------------------*/
