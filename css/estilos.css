@@ -152,7 +152,7 @@ footer {
 	padding: 0;
 	width: 100%;
 	display: flex;
-	flex-flow: col;
+	flex-flow: row;
 }
 
 .cont3 h3{
@@ -244,8 +244,8 @@ footer {
 
 
 .contenedorRetrato img{
-	width: 18vw;
-	height:45vh;
+	width: 20.3vw;
+	height:50vh;
 }
 
 .contenedorRetrato{
