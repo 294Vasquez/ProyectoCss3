@@ -141,18 +141,18 @@ header h1 {
 -------------------------------*/
 footer {
 	text-align: center;
-	justify-content: center;
-	align-content: center;	
+	justify-content: auto;
+	align-content: auto;	
 }
 
 .cont3 {
 	border-radius: 0 0 1.5vh 1.5vh;
 	background-color: #C6d5c5;
-	margin: 0vh;
+	margin: auto;
 	padding: 0;
 	width: 100%;
 	display: flex;
-	flex-flow: row;
+	flex-flow: col;
 }
 
 .cont3 h3{
@@ -163,9 +163,9 @@ footer {
 .c1{
 	margin: auto;
 	padding: auto;
-	width: 15vw;
-	text-align: center;
-	justify-content: center;
+	width: 25%;
+	/*text-align: center;*/
+	justify-content: auto;
 	flex-flow: column;
 	font-size: 2rem;
 }
@@ -179,9 +179,9 @@ footer {
 .c2{
 	margin: auto;
 	padding: auto;
-	width: 20vw;
-	text-align: center;
-	justify-content: center;
+	width: 25%;
+	/*text-align: center;*/
+	justify-content: auto;
 	font-size: 1.2rem;
 }
 
@@ -192,9 +192,9 @@ footer {
 .c3{  
 	margin: auto;
 	padding: auto;
-	width: 20vw;
-	text-align: justify;
-	justify-content: center;
+	width: 25%;
+	/*text-align: center;*/
+	justify-content: auto;
 }
 
 .c3 p{
@@ -204,7 +204,7 @@ footer {
 .c4{
 	margin: auto;
 	padding: auto;
-	width: 20vw;
+	width: 25%;
 }
 
 .c4 img{
@@ -244,7 +244,7 @@ footer {
 
 
 .contenedorRetrato img{
-	width: 33vw;
+	width: 18vw;
 	height:45vh;
 }
 
@@ -297,6 +297,7 @@ footer {
 	#contenido{
            align-content: center;
            width: 100%;
+           
 	}
 	header h1{
 		text-align: center;
@@ -362,6 +363,7 @@ footer {
 		margin-right:6%;
 
 	}
+/*footer*/
 
 	.cont3{
 		width: 100%;
@@ -369,11 +371,16 @@ footer {
 		flex-flow: column;
 		margin: auto;
 		order: 3;
+		text-align: left;
+		justify-content: left;
+
 	}
+/*footer*/
 
 	.c1, .c2, .c3, .c4{
 		text-align: left;
 		justify-content: left;
+		align-content: left;
 	}
 
 	.contenedorRetrato{
@@ -398,7 +405,6 @@ footer {
 		width: 85%;
 		height:35%;
 	}
-
 
 }
 
@@ -428,11 +434,11 @@ footer {
 
 header{
 	animation-name: sliden;
-	animation-duration: 1.8s;
-	-webkit-animation-delay: 1.2s;
-	-moz-animation-delay: 1.2s;
-	-o-animation-delay: 1.2s;
-	animation-delay: 1.2s;
+	animation-duration: 1.4s;
+	-webkit-animation-delay: 0.1s;
+	-moz-animation-delay: 0.1s;
+	-o-animation-delay: 0.1s;
+	animation-delay: 0.1s;
 }
 
 /*KEYFRAME SLIDEN
