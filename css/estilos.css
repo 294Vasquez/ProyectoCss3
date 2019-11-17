@@ -90,8 +90,8 @@ header h1 {
 
 #imagenes2 img{
 	float: left;
-	width: 70%;
-	height: 45%;
+	width: 80%;
+	height: 35%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	margin-right: 10%;
@@ -113,8 +113,8 @@ header h1 {
 
 #imagenes3 img{
 	float: right;
-	width: 70%;
-	height: 45%;
+	width: 80%;
+	height:35%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	margin-right: 10%;
@@ -260,53 +260,92 @@ footer {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.contret1 img{
+	width:22vw;
+	height: 30vh;
 }
 
 .contret2{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	margin-bottom: 3%;
+}
+
+.contret2 img{
+	width:22vw;
+	height: 30vh;
+}
+
+.contenedorpaisaje{
+	width: 100%;
+	background-color:#d5c75f;
+	display: inline-flex;
+	flex-flow: column;
+}
+
+.contpai1{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.contpai1 img{
+	width:22vw;
+	height: 30vh;
+}
+
+.contpai2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	margin-bottom: 3%;
+}
+
+.contpai2 img{
+	width:22vw;
+	height: 30vh;
 }
 
 #pic1 img {
 	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
 	filter: blur(10px);
-	width: 85%;
-	margin: 2%;
 }
 
 #pic2 img{
 	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
 	filter: grayscale(100%);
-	width: 85%;
-	margin: 2%;
-} 
+}
 
 #pic3 img{
 	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
 	filter: sepia(90%);
-	width: 85%;
-	margin: 2%;
 }
 
 #pic4 img{
 	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
 	filter: grayscale(100%);
-	width: 85%;
-	margin: 2%;
 } 
 
 #pic5 img{
-	width: 85%;
-	margin: 2%;
-}
 
+}
 
 #pic6 img{
 	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
 	filter: grayscale(100%);
-	width: 85%;
-	margin: 2%;
 } 
 
 /*MEDIA QUERIES
@@ -315,9 +354,13 @@ footer {
 @media all and (min-width: 200px) and (max-width: 900px)  {
 
 	#contenido{
-           /*align-content: center;*/
-           width: 100%;
-           
+		/*align-content: center;*/
+		width: 100%;
+	
+
+	}
+	header{
+		width: 100%;
 	}
 	header h1{
 		text-align: center;
@@ -381,27 +424,27 @@ footer {
 		margin-bottom: 0.8vh;
 		margin-left:6%;
 		margin-right:6%;
-
 	}
-/*footer*/
+	/*footer*/
 
 	.cont3{
 		width: 100%;
 		display: flex;
 		flex-flow: column;
-		margin: auto;
+		margin:auto;
 		order: 3;
 		justify-content: left;
-
 	}
-/*footer*/
 
 	.c1, .c2, .c3, .c4{
 		width: 100%;
 		text-align: left;
 		justify-content: left;
 		align-content: left;
+		padding-left: 5%;
 	}
+
+	/*footer*/
 
 	.contenedorRetrato{
 		display: inline-flex;
@@ -413,20 +456,87 @@ footer {
 	}
 
 	.contret1{
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 	}
 
 	.contret2{
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 	}
 	.contenedorRetrato img{
-		margin: auto;
-		width: 65%;
-		height:25%;
+		margin: 3%;
+		width: 70%;
+		height:30%;
 	}
 
+	.contenedorpaisaje{
+		display: inline-flex;
+		flex-flow: column;
+		width: 100%;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+	}
+
+	.contenedorpaisaje img{
+		margin: 3%;
+		width: 70%;
+		height:30%;
+	}
+
+	.contpai1{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contpai2{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+
+@media all and (min-width: 901px){
+	#contenido{
+		width: 900px;
+		margin: auto;
+		justify-content:center;
+	}
+
+	.cont1{
+		width: 100%;
+		background-color: #82c3a6;
+		text-align: center;	
+	}
+
+	.cont2{
+		background-color:#d5c75f;
+		width: 100%;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+	}
+
+	footer {
+		text-align: center;
+		justify-content: auto;
+		align-content: auto;	
+	}
+
+	.cont3 {
+		border-radius: 0 0 1.5vh 1.5vh;
+		background-color: #C6d5c5;
+		margin: auto;
+		padding: 0;
+		width: 100%;
+		display: flex;
+		flex-flow: row;
+	}
 }
 
 /*MEDIA QUERIES
